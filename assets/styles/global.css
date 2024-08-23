@@ -1,0 +1,89 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#__nuxt,
+#app {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  /* 23/08/18 add: Adjust the text size to fit the container */
+  -webkit-text-size-adjust: auto;
+     -moz-text-size-adjust: auto;
+          text-size-adjust: auto;
+}
+
+.full {
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+body {
+  margin: 0;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/**模块间间距 */
+.module-margin {
+  margin: 4%;
+  margin-top: 100px;
+}
+
+/**模块标题统一样式 */
+.module-title {
+  font-family: "Alibaba Sans Black";
+  font-size: 48px;
+  color: rgb(47, 46, 52);
+}
+
+@media screen and (max-width: 1200px) {
+  .module-title {
+    font-size: 43px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .module-title {
+    font-size: 38px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .module-title {
+    font-size: 33px;
+  }
+}
+/**模块内容统一样式 */
+.module-content {
+  overflow: hidden;
+  margin: 5%;
+  margin-top: 70px;
+  color: rgb(255, 255, 255);
+}
+
+/**第三方字体 */
+@font-face {
+  /* 阿里妈妈数黑体 */
+  font-family: "Alibaba Sans Black";
+  src: url("../fonts/AlimamaShuHeiTi-Bold.ttf") format("truetype");
+  /* 如果字体文件是.otf格式，使用format('opentype') */
+}
+@font-face {
+  /* 阿里巴巴普惠体 */
+  font-family: "AlibabaPuHuiTi";
+  src: url("../fonts/AlibabaPuHuiTi-3-85-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "YouSheBiaoTiYuan";
+  src: url("../fonts/YouSheBiaoTiYuan-2.otf") format("opentype");
+}/*# sourceMappingURL=global.css.map */

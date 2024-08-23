@@ -1,0 +1,9 @@
+@charset "UTF-8";
+/* 命名空间 */
+/**el命名空间 */
+/**合作交流、公益视频等页面顶部标题背景图片高度*/
+:export {
+  namespace: v;
+  elNamespace: el;
+  topBoxPicHeight: 325px;
+}/*# sourceMappingURL=global.module.css.map */

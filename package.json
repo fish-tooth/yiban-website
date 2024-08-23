@@ -1,0 +1,42 @@
+{
+  "name": "nuxt-yiban",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "build": "nuxi build --dotenv .env.production",
+    "dev": "nuxi dev --dotenv .env.development --port 3000",
+    "generate": "nuxt generate --dotenv .env.production",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@element-plus/nuxt": "^1.0.3",
+    "nuxt": "^3.2.3",
+    "path": "^0.12.7",
+    "postcss-px-to-viewport-8-plugin": "^1.2.0",
+    "sass": "^1.58.3"
+  },
+  "dependencies": {
+    "@css-render/vue3-ssr": "^0.15.12",
+    "@nuxtjs/composition-api": "^0.33.1",
+    "@tinymce/tinymce-vue": "^5.1.0",
+    "@types/vue-router": "^2.0.0",
+    "@vuemap/vue-amap": "^2.0.19",
+    "countup.js": "^2.7.0",
+    "css-render": "^0.15.12",
+    "element-plus": "^2.2.32",
+    "swiper": "^8.0.0",
+    "tinymce": "^6.4.1",
+    "video.js": "^8.10.0",
+    "videojs-contrib-hls": "^5.15.0",
+    "vue-amap": "^0.5.10",
+    "vue-class-component": "^7.2.6",
+    "vue-countup-v2": "^4.0.0",
+    "vue-property-decorator": "^9.1.2",
+    "vue-router": "^4.2.5",
+    "vue-types": "^5.1.1"
+  }
+}

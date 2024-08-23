@@ -1,0 +1,10 @@
+{
+    // https://nuxt.com/docs/guide/concepts/typescript
+    "compilerOptions": {
+      "skipLibCheck": true,  
+    },
+    "extends": "./.nuxt/tsconfig.json",
+    // "include": ["./typings/*.d.ts"],
+    "moduleResolution": "node"
+}
+  
